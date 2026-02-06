@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイムスケジュール案（実践重視版）</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>タイムスケジュール案<br>（実践重視版）</h1>
+            <p class="subtitle">前半で「生徒としての体験」、後半で「教師としての創造」を行う構成です。</p>
+        </header>
+
+        <section class="quick-access">
+            <a href="https://script.google.com/macros/s/AKfycbyiV2IEOdW90UFjD3J4MM6XR8FZfJU65Q877ry_xmv8FDhiLVnKMU7STT_kIicQEMQxMQ/exec"
+                class="access-card" target="_blank" rel="noopener noreferrer">
+                <h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="8.5" cy="7" r="4"></circle>
+                        <line x1="20" y1="8" x2="20" y2="14"></line>
+                        <line x1="23" y1="11" x2="17" y2="11"></line>
+                    </svg>
+                    デモアカウント配付
+                </h3>
+                <p>ID配付システムでログイン（シークレットモード推奨）</p>
+            </a>
+
+            <a href="https://classroom.google.com/c/ODQyMzE0Mzg4MTM1?cjc=gq3c5rdy" class="access-card" target="_blank"
+                rel="noopener noreferrer">
+                <h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    Google Classroom
+                </h3>
+                <p>当日使うクラスルームへ参加</p>
+            </a>
+        </section>
+
+        <div class="timeline">
+            <!-- Phase 1 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <span class="time-badge">13:00 ～ 13:30</span>
+                    <h2 class="phase-title">1. 導入</h2>
+                    <ul class="content-list">
+                        <li>自己紹介 & ID配付・環境構築</li>
+                        <li>Google Classroom参加</li>
+                        <li>マインドセット：「今日は失敗しに来てください」</li>
+                    </ul>
+                    <div class="tools-section">
+                        <span class="tool-tag">ID配付</span>
+                        <span class="tool-tag">Classroom</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <span class="time-badge">13:30 ～ 14:30</span>
+                    <h2 class="phase-title">2. 模擬授業 (60分)</h2>
+                    <ul class="content-list">
+                        <li>総合的な学習模擬授業 ＋ 話し合い革命</li>
+                    </ul>
+                    <div class="tools-section">
+                        <span class="tool-tag">Classroom</span>
+                        <span class="tool-tag">NotebookLM</span>
+                        <span class="tool-tag">Gemini</span>
+                        <span class="tool-tag">記録くん</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Break 1 -->
+            <div class="timeline-item">
+                <div class="timeline-marker" style="background: var(--text-muted); border-color: var(--text-muted);">
+                </div>
+                <div class="timeline-card" style="opacity: 0.8; padding: 1rem;">
+                    <span class="time-badge"
+                        style="background: rgba(255,255,255,0.1); color: var(--text-muted); border-color: transparent;">14:30
+                        ～ 14:40</span>
+                    <h3 style="font-size: 1.1rem; color: var(--text-muted); margin: 0;">休憩 (10分)</h3>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <span class="time-badge">14:40 ～ 15:40</span>
+                    <h2 class="phase-title">3. 創造 (60分)</h2>
+                    <ul class="content-list">
+                        <li>Gem（ジェム）作り体験</li>
+                        <li>Geminiのカスタム機能「Gems」を活用</li>
+                        <li>「探究の壁打ち相手」や「教材作成アシスタント」など、特定の役割を持つ自分だけのAIを作る</li>
+                        <li>作成したGemをグループで共有・試用</li>
+                    </ul>
+                    <div class="tools-section">
+                        <span class="tool-tag">Gemini (Gems)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Break 2 -->
+            <div class="timeline-item">
+                <div class="timeline-marker" style="background: var(--text-muted); border-color: var(--text-muted);">
+                </div>
+                <div class="timeline-card" style="opacity: 0.8; padding: 1rem;">
+                    <span class="time-badge"
+                        style="background: rgba(255,255,255,0.1); color: var(--text-muted); border-color: transparent;">15:40
+                        ～ 15:50</span>
+                    <h3 style="font-size: 1.1rem; color: var(--text-muted); margin: 0;">休憩 (10分)</h3>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <span class="time-badge">15:50 ～ 16:50</span>
+                    <h2 class="phase-title">4. 統合 (60分)</h2>
+                    <ul class="content-list">
+                        <li>NotebookLMとGeminiを使った授業作り体験</li>
+                        <li>指導要領、プリント、資料などをソースとして使用</li>
+                        <li>AIと対話しながら、本日の学びを活かした単元指導案やルーブリックを作成</li>
+                    </ul>
+                    <div class="tools-section">
+                        <span class="tool-tag">NotebookLM</span>
+                        <span class="tool-tag">Gemini</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conclusion -->
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <span class="time-badge">16:50 ～ 17:00</span>
+                    <h2 class="phase-title">まとめ</h2>
+                    <ul class="content-list">
+                        <li>質疑応答</li>
+                        <li>アンケート記入</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
